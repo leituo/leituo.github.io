@@ -1,0 +1,398 @@
+ul,li,input,body,figure,h1,h2,h3,h4,h5,h6,header,section,footer,input,p,pre{
+    margin: 0;padding:0;list-style: none;
+    font-family:"微软雅黑";
+    font-size: 12px;
+
+}
+img{
+    border:none;
+
+}
+a{
+    text-decoration: none;
+}
+*{
+    box-sizing: border-box;
+}
+/*导航*/
+body{
+    position: relative;
+}
+.guide-con{
+    width: 100%;
+    height: 112px;
+    /*background: #000;*/
+    /*position: absolute;*/
+    /*float: left;*/
+    top:0;
+    z-index: 20;
+}
+.guide{
+    width: 1200px;
+    height: 112px;
+    /*background: #000;*/
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+
+
+}
+.guide a{
+    /*width: 75%%;*/
+    height: 112px;
+    display: block;
+
+    /*background: #000;*/
+
+
+    color:#000;
+    line-height:112px ;
+    cursor: pointer;
+
+}
+.guide a:hover{
+  text-decoration: underline;
+
+}
+.guide .palm{
+    width: 96px;
+    height: 112px;
+
+    background: url(../images/palm-2.png)no-repeat;
+
+
+    /*color:#fff;*/
+    /*line-height:112px ;*/
+}
+.banner{
+    width: 100%;
+    height: 730px;
+
+    background: url(../images/bannerumi-1.jpg)no-repeat center ;
+    background-size: cover;
+    /*background: rgba(137,42,126,1);*/
+
+    color:#fff;
+    line-height:112px ;
+    position: relative;
+    z-index: 9;
+
+}
+.banner-mask{
+    width: 100%;
+    height: 730px;
+    background: rgba(0,0,0,.4) ;
+
+    position: absolute;
+    top:0;
+    /*z-index: 10;*/
+}
+.first-tittle{
+    width:391px;
+    height: 52px;
+    margin: 0 auto;
+    position: absolute;
+    left:0;
+    right:0;
+
+    bottom: 419px;
+
+    text-align: center;
+    color: #fff;
+    font-size: 48px;
+
+}
+.first-sub-tittle{
+    width:391px;
+    height: 52px;
+    margin: 0 auto;
+    position: absolute;
+    left:0;
+    right:0;
+
+    bottom: 381px;
+
+    text-align: center;
+    color: #fff;
+    font-size: 36px;
+
+}
+
+
+.bread{
+    width:1200px;
+
+
+
+
+    /*z-index: 3;*/
+    margin:27px auto 0;
+}
+.tittle-black{
+    width:1200px;
+    height:50px;
+    /*background: blue;*/
+    margin:0 auto;
+    /*position: relative;*/
+    /*top:-50px;*/
+    /*!*position: absolute;*!*/
+    /*!*top:50px;*!*/
+    /*!*left: 50px;*!*/
+    /*z-index: -5;*/
+    text-align: center;
+    font-size: 36px;
+}
+.jingdian{
+    width:1172px;
+    height:278px;
+    /*background: #000;*/
+    margin:111px auto 0;
+    /*position: relative;*/
+    /*top:-50px;*/
+    /*!*position: absolute;*!*/
+    /*!*top:50px;*!*/
+    /*!*left: 50px;*!*/
+    /*z-index: -5;*/
+    text-align: center;
+    font-size: 36px;
+}
+.jingdian-left{
+    width:420px;
+    height:278px;
+    display: block;
+
+    /*height:452px;*/
+    /*background:url(../images/yellowstone-1.jpg)no-repeat ;*/
+    float: left;
+    /*margin:0 auto;*/
+
+
+}
+.jingdian-left-a{
+    width:420px;
+    height:278px;
+    display: block;
+
+
+    float: left;
+    /*margin:0 auto;*/
+
+
+}
+/*右边部分*/
+.jingdian-right{
+    width:752px;
+    height:278px;
+    display: block;
+    /*height:452px;*/
+
+    float: left;
+    padding-left: 55px;
+    border:1px solid #c9c9c9;
+    border-left:none;
+    border-top:none;
+
+}
+.jingdian-expl-t{
+    /*width:489px;*/
+    /*height:452px;*/
+    /*display: block;*/
+    /*height:452px;*/
+    /*background:url(../images/yellowstone-1.jpg)no-repeat ;*/
+    /*float: left;*/
+    /*padding-left: 55px;*/
+    /*margin:0 auto;*/
+    /*!*position: relative;*!*/
+    /*!*top:-50px;*!*/
+    /*!*!*position: absolute;*!*!*/
+    /*!*!*top:50px;*!*!*/
+    /*!*!*left: 50px;*!*!*/
+    /*!*z-index: -5;*!*/
+    /*text-align: ;*/
+    font-size: 30px;
+}
+.jingdian-expl-main{
+    margin-top: 30px;
+    /*width:489px;*/
+    /*height:452px;*/
+    /*display: block;*/
+    /*height:452px;*/
+    /*background:url(../images/yellowstone-1.jpg)no-repeat ;*/
+    /*float: left;*/
+    /*padding-left: 55px;*/
+    /*margin:0 auto;*/
+    /*!*position: relative;*!*/
+    /*!*top:-50px;*!*/
+    /*!*!*position: absolute;*!*!*/
+    /*!*!*top:50px;*!*!*/
+    /*!*!*left: 50px;*!*!*/
+    /*!*z-index: -5;*!*/
+    text-align: left;
+    font-size: 18px;
+    color: #000;
+}
+.jingdian-expl-more{
+    margin-top: 15px;
+    /*width:489px;*/
+    /*height:452px;*/
+    /*display: block;*/
+    /*height:452px;*/
+    /*background:url(../images/yellowstone-1.jpg)no-repeat ;*/
+    /*float: left;*/
+    /*padding-left: 55px;*/
+    /*margin:0 auto;*/
+    /*!*position: relative;*!*/
+    /*!*top:-50px;*!*/
+    /*!*!*position: absolute;*!*!*/
+    /*!*!*top:50px;*!*!*/
+    /*!*!*left: 50px;*!*!*/
+    /*!*z-index: -5;*!*/
+    text-align: left;
+    font-size: 18px;
+    color: #329df1;
+}
+
+/*底部*/
+.bottom{
+    width:100%;
+    height:359px;
+    background: #38434f;
+    margin-top: 53px;
+
+}
+.bottom-con{
+    width:1200px;
+    height:359px;
+
+    padding-top: 19px;
+    margin: 0 auto;
+}
+.bottom-bbox{
+    width:100%;
+    height:222px;
+
+    /*padding-top: 19px;*/
+}
+.bottom-half-box{
+    width:50%;
+    height:222px;
+
+    /*padding-top: 19px;*/
+    /*background: red;*/
+    float: left;
+}
+.half-box-top{
+    width:100%;
+    height:24px;
+
+    /*padding-top: 19px;*/
+    /*background: yellow;*/
+    color: #fff;
+    font-size: 18px;
+}
+.half-box-bottom{
+    width:50%;
+    height:198px;
+
+    /*padding-top: 19px;*/
+    /*background: gray;*/
+    float: left;
+}
+li{
+    width: 100%;
+    height:29px;
+
+
+}
+ .half-box-bottom li a {
+    width: 100%;
+    height:29px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 29px;
+}
+.half-box-bottom li a:hover {
+  text-decoration: underline;
+}
+.bottom-dbox{
+    width:1200px;
+    height:29px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.bottom-dbox a{
+
+    height:29px;
+
+    color: #fff;
+    font-size: 14px;
+    line-height: 29px;
+    float: left;
+}
+.bottom-dbox a:hover {
+    text-decoration: underline;
+}
+.power{
+    width:1200px;
+    height:89px;
+    margin: 0 auto;
+    position: relative;
+}
+.power-left{
+    width:120px;
+    height: 60px;
+    position: absolute;
+    left:13px ;
+    bottom:17px ;
+
+    color: #fff;
+    text-align: center;
+
+}
+.power-right{
+    width:257px;
+    height: 24px;
+    position: absolute;
+    right:13px ;
+    bottom:15px ;
+
+    color: #fff;
+    text-align: center;
+
+}
+.pag-bt-con{
+    width:1200px;
+    margin: 56px auto 0;
+    height:52px;
+
+}
+.pag-bt{
+    width:70px;
+    /*margin: 56px auto 0;*/
+    height:52px;
+    float: left;
+    text-align: center;
+    line-height: 52px;
+    font-size: 24px;
+    box-shadow: 1px 1px #ccc;
+    cursor: pointer;
+
+
+
+}
+.pag-bt:hover{
+    /*width:70px;*/
+    /*!*margin: 56px auto 0;*!*/
+    /*height:52px;*/
+    /*float: left;*/
+    /*text-align: center;*/
+    /*line-height: 52px;*/
+    /*font-size: 24px;*/
+    box-shadow: 2px 2px #444;
+    /*cursor: pointer;*/
+
+
+
+}

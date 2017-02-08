@@ -1,0 +1,224 @@
+.banner{
+    width:100%;
+    height:400px;
+    background:url("../images/banner.jpg")
+    no-repeat  top center;
+    background-size:cover;
+    padding-top:169px;
+}
+.banner a{display:block;
+    margin:0 auto;
+    width:294px;
+    color:#fff;
+    font-size:60px;
+
+
+}
+a span{font-size:30px;
+display:block;
+width:127px;
+margin:0 auto;}
+#icon{width:78px;
+    height:67px;
+    background:url("../images/22ccaf4c24ef690f7767e6a3ba5f0.png")
+    no-repeat top;
+    background-size:contain;
+    margin-top:90px;
+
+}
+.box{
+    margin-top:90px;
+}
+
+.content{
+    background:#fff;
+    padding:15px;
+    margin-bottom:30px;
+
+}
+.content .picture{
+    display:block;
+    width:100%;
+    padding-top:62.5%;
+    position:relative;
+}
+.content a img{
+    max-width:100%;
+    height:auto;
+    display:block;
+    position:absolute;
+    left:0;
+    top:0;
+
+}
+.content h2{
+    text-align:center;
+    line-height:30px;
+}
+.content h2 a {
+    color:#333
+}
+img{
+    width:100%;
+    height:auto;
+    display:block;
+
+
+}
+body{
+    background:#f2f2f2;
+}
+/*下一页*/
+.next-p-con{
+    width: 100%;
+    height: 40px;
+    margin: 40px auto 0;
+    position: relative;
+
+}
+.next-p{
+    width:120px;
+    margin:0 auto;
+    padding-top: 10px;
+    height: 30px;
+    font-size: 16px;
+
+}
+.next-right{
+    width: 79px;
+    height: 41px;
+    position: absolute;
+    border-radius: 3px;
+    right:10px;
+    border: 1px solid #39414a;
+    text-align: center;
+    line-height: 40px;
+    top:0;
+}
+.next-right:hover{
+    color:#fff;
+    background: #4A4849;
+}
+
+@media screen and (max-width:750px ){
+
+    .next-right{
+        right: 20px;
+    }
+}
+/*最下*/
+.black-omo{
+    width: 100%;
+    text-align: center;
+    background: #111111;
+    color: #555555;
+    padding-top: 14px;
+    padding-bottom: 20px;
+    border-top: 1px solid #303030;
+    font-size: 13px;
+}
+.black-omo a{
+
+    color: #555555;
+}
+.black-omo a:hover{
+
+  text-decoration: underline;
+}
+/*倒数2*/
+.bottom2{
+   margin-top: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.b-word{
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.b-word a{
+    color: #337ac8;
+
+
+}
+.b-word a:hover{
+   text-decoration: underline;
+
+
+}
+/*倒数三*/
+.black-asa{
+    background: #202020;
+    padding-top:35px;
+    color:#959595;
+}
+
+.b-asa-box{
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+.vigt{
+    padding: 0 30px;
+    margin-bottom:35px ;
+
+}
+.vigt-top{
+
+    padding-bottom: 7px;
+    margin-bottom:21px;
+    color: #fff;
+    font-size: 18px;
+    position:relative;
+    border-bottom: 1px solid #303030;
+}
+
+.vigt-content a{
+   display: block;
+    border-bottom: 1px dashed #303030;
+    padding-bottom: 14px;
+    margin-bottom: 14px;
+    color: #959595;
+    font-size: 14px;
+
+
+}
+.vigt-content a:last-child{
+    display: block;
+    border-bottom: 1px dashed #303030;
+    padding-bottom: 14px;
+    margin-bottom: 0;
+    color: #959595;
+    font-size: 14px;
+
+
+}
+
+.vigt-content a:hover{
+    color: #fff;
+}
+.vigt-content2 a{
+
+    border: 1px solid #303030;
+    padding: 2px 7px;
+    color: #959595;
+    line-height: 1.5em;
+    display: inline-block;
+    margin: 0 7px 7px 0;
+
+    color: #959595;
+    font-size: 14px;
+    transition: all .2s ease;
+
+
+}
+
+.vigt-content2 a:hover{
+
+    border: 1px solid #337ab7;
+    background: #337ab7;
+
+
+
+}
+
