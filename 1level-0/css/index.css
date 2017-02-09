@@ -624,6 +624,8 @@ body{
     height: 593px;
     display: block;
     float: left;
+    background: url(../images/chechi.jpg) center;
+    background-size: cover;
 }
 .budding3-right{
     width: 597px;
@@ -667,6 +669,8 @@ body{
     height: 412px;
     display: block;
     float: left;
+    background: url(../images/fireflower.jpg)center;
+    background-size: cover;
 }
 
 
@@ -680,6 +684,8 @@ body{
     height: 412px;
     display: block;
     float: left;
+    background: url(../images/nova.jpg)right;
+    background-size: cover;
 }
 .budding5-right{
     width: 597px;
