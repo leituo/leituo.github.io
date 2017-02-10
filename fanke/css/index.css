@@ -271,7 +271,12 @@ text-align:center;color:#727171;line-height:32px;}
 
 
 /*banner*/
-.banner{width:1200px;height:535px;margin:0 auto;margin-top:34px;position:relative;}
+.banner{
+	width:1200px;
+	height:535px;
+	margin:34px auto 0;
+	position:relative;
+}
 .circlebox{width:132px;height:12px;
 	position:absolute;left:535px;bottom:23px;}
 .malu{width:12px;height:12px;
